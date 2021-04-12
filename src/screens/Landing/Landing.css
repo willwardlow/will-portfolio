@@ -1,0 +1,10 @@
+.landing-container{
+  min-height: 100vh;
+  
+}
+
+.landing-container img{
+  height: 745px;
+  object-fit: cover;
+  width: 100%;
+}

@@ -1,0 +1,36 @@
+.footer{
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F6AE2D;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid black;
+}
+.github img,
+.linkedin img {
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.linkedin img{
+  margin-left: 50px;
+}
+
+.footer p{
+  font-family: 'Dosis', sans-serif;
+  margin-right: 50px;
+  margin-left: auto;
+}
+
+.github img:hover{
+  color: #33658A;
+}
+
+.credits {
+  font-size: 12px;
+}
+

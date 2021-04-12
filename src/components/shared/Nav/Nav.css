@@ -1,0 +1,39 @@
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar{
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  height: 75px;
+  display:flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #F6AE2D;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  border-bottom: 2px solid black;
+}
+
+.name{
+  font-size: 36px;
+  margin-left: 50px;
+  margin-right: auto;
+
+}
+
+.about,
+.projects, 
+.resume,
+.contact {
+  margin-right: 50px;
+  
+}
+
+.nav-bar a:hover{
+  text-decoration: underline;
+  color:#bd632f;
+}
