@@ -17,7 +17,7 @@ export default function Nav() {
         Projects
       </NavLink>
 
-      <a target='blank' className='resume' href='https://drive.google.com/drive/u/0/folders/1RLZpiFgVH-v9nakhAEvsBpd3PQ4BPThM'>
+      <a target='blank' className='resume' href='https://drive.google.com/file/d/1BmTsLOkBoB9EC_ahLEJnN0n1vNKPdp2D/view?usp=sharing'>
         Resume
       </a>
 
