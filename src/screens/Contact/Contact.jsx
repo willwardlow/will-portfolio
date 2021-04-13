@@ -18,7 +18,7 @@ export default function Contact() {
         </label>
 
         <label htmlFor='message'> Message:
-          <textarea name='message' rows='10' cols='20' />
+          <textarea name='message' rows='10' cols='24' placeholder='Enter Message:' />
         </label>
 
         <input type='submit'/>
