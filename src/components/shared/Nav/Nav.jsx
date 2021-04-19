@@ -3,6 +3,7 @@ import './Nav.css'
 
 
 export default function Nav() {
+
   return (
     <div className='nav-bar'>
       <NavLink className='name' to='/'>
@@ -24,6 +25,7 @@ export default function Nav() {
       <NavLink className='contact' to='/contact'>
         Contact
       </NavLink>
+
     </div>
   )
 }

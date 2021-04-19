@@ -1,5 +1,6 @@
 .landing-container{
   min-height: 100vh;
+  overflow: hidden;
   
 }
 
@@ -7,4 +8,26 @@
   height: 745px;
   object-fit: cover;
   width: 100%;
+}
+
+.landing-text {
+  z-index: 2;
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  top: 29%;
+  opacity: 0;
+  animation: 15s ease-in-out slideIn;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(500%);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
 }

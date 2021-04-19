@@ -8,6 +8,7 @@
   margin-right: auto;
   display: flex;
   align-items: flex-start;
+  animation: 2s fadeIn;
 }
 
 form{
@@ -72,6 +73,15 @@ input[type='submit']:hover {
 
 label{
   align-self: center;
+}
+
+@keyframes fadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 1000px) {

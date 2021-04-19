@@ -30,10 +30,13 @@
 .resume,
 .contact {
   margin-right: 50px;
-  
 }
 
 .nav-bar a:hover{
   text-decoration: underline;
   color:#bd632f;
+}
+
+.menu-button{
+  margin-right: 25px;
 }

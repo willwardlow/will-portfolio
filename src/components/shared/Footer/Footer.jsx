@@ -3,11 +3,11 @@ import './Footer.css'
 export default function Footer() {
   return (
     <div className='footer'>
-      <a className='linkedin' href='https://www.linkedin.com/in/will-wardlow/'>
+      <a className='linkedin' href='https://www.linkedin.com/in/will-wardlow/' target='blank'>
         <img src='https://i.imgur.com/JMrpyRv.png' alt='linkedin icon' />
       </a>
 
-      <a className='github' href='https://github.com/willwardlow'>
+      <a className='github' href='https://github.com/willwardlow' target='blank'>
         <img src='https://i.imgur.com/9Mu6JAV.png' alt='github icon'/>
       </a>
 

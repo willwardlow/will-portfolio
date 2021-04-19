@@ -23,7 +23,7 @@
   border-radius: 5px;
   padding-left: 5px;
   padding-right:5px;
-
+  animation: 1s ease-in slideup;
 }
 
 .project-screenshot{
@@ -53,5 +53,17 @@
 }
 
 .project-entry:hover{
-  filter: drop-shadow(2px 2px 2px white)
+  box-shadow: -2px 2px 20px #68899B;
+}
+
+@keyframes slideup {
+  from {
+    transform: translateY(15%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0%);
+    opacity: 1;
+  }
 }
