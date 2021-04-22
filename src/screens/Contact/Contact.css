@@ -19,10 +19,10 @@ form{
   background-color: #F6AE2D;
   border: 2px solid #bd632f;
   border-radius: 10px;
-  height: 300px;
+  max-height: 500px;
   padding-top: 30px;
   padding-bottom: 20px;
-  width: 28vw;
+  max-width: 28vw;
 }
 
 .form-text{
@@ -48,7 +48,7 @@ label{
 input[type='submit'] {
   width: 5rem;
   align-self: center;
-  margin: 10px auto;
+  margin: 15px auto;
   padding: 5px;
 }
 
@@ -86,21 +86,73 @@ input[type='submit']:hover {
     opacity: 1;
   }
 }
+@media (max-width: 1300px){
 
-@media only screen and (max-width: 1000px) {
+  form {
+    max-width: 25vw;
+  }
+
+  input{
+    width: 10rem;
+  }
+  input[type='text'],
+  input[type='email']{
+    width: 59%;
+  }
+
+  textarea{
+    width: 60%;
+  }
+
+  label{
+    align-self: center;
+  }
+}
+
+@media (max-width: 1100px){
+
   .contact-container{
     flex-direction: column;
+    padding-top: 100px;
+    min-height: 80vw;
   }
 
   .form-text{
-    width: 60vw;
+    width: 100%;
+    text-align: center;
+  }
+  form {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1000px) {
+
+  .form-text{
     letter-spacing: 0.1px;
     text-align: center;
+
+
   }
 
   form{
     width: 50vw;
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .form-text{
+    font-size: 30px;
+  }
+  .email{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 740px){
+  form{
+    max-width: 100%;
   }
 }
