@@ -13,16 +13,7 @@
   min-height:80vh;
 }
 
-.headshot {
-  height: 300px;
-  border-radius: 50%;
-  margin-top: 50px;
-  margin-left: 80px;
-  grid-area: I;
-  border: 1px solid #bd632f;
-  animation: 2s fadeIn;
-  display: inline-block;
-}
+
 
 .about-text {
   grid-area: T;

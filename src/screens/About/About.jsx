@@ -4,7 +4,6 @@ import './About.css'
 export default function About() {
   return (
     <div className='about-container'>
-      <img className='headshot' src="https://i.imgur.com/nZz1CO7.jpg" alt='headshot' />
       <div className='about-text'>
         <p className='p1'>
           Optimistic, disciplined, approachable software developer with a strong background in customer service and management. I aim to join a mission-driven company, where I can make improvements at the community level through impactful products.
