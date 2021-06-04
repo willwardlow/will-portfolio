@@ -14,6 +14,7 @@
   justify-content: flex-start;
   background-color: #F6AE2D;
   position: fixed;
+  z-index: 1;
 }
 
 .headshot {

@@ -8,9 +8,9 @@ export default function Nav() {
     <div className='nav-bar'>
 
       <img className='headshot' src="https://i.imgur.com/nZz1CO7.jpg" alt='headshot' />
-      <p className='name' >
+      <NavLink className='name' to='/' >
         Will A. Wardlow
-      </p>
+      </NavLink>
 
       <div className='links'>
 

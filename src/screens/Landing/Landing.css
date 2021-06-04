@@ -1,25 +1,31 @@
 .landing-container{
-  min-height: 100vh;
-  overflow: hidden;
-  
-}
-
-.landing-container img{
-  height: 745px;
-  object-fit: cover;
-  width: 100%;
-  overflow: hidden;
+  height: 100vh;
+  width: 60vw;
+  margin-left: 300px;
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .landing-text {
-  z-index: 2;
-  position: absolute;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: left;
-  top: 29%;
-  opacity: 0;
-  animation:5s ease-in-out slideIn;
+  
+  /* animation:5s ease-in-out slideIn; */
+}
+
+.tech-stack-icons{
+  height: 20vh;
+  width: 30vw;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 40px;
+}
+
+.tech-stack-icons img{
+  height: 50px;
+  margin: 0 auto;
 }
 
 @keyframes slideIn {
