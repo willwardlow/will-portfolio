@@ -14,9 +14,6 @@
   justify-content: flex-start;
   background-color: #F6AE2D;
   position: fixed;
-  top: 0;
-  z-index: 1;
-  border-bottom: 2px solid black;
 }
 
 .headshot {
@@ -28,7 +25,7 @@
 
 .name{
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-weight: bold;
   letter-spacing: 0.6px;
 }
@@ -37,10 +34,13 @@
   text-decoration: underline;
   color:#bd632f;
 }
+
 .links{
   display: flex;
   flex-direction: column;
   margin-bottom: 30px;
+  line-height: 2;
+  letter-spacing: 0.6px;
 }
 
 .icons{

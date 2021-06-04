@@ -22,9 +22,9 @@ export default function Nav() {
           Projects
       </NavLink>
 
-      <a target='blank' className='resume' href='https://drive.google.com/file/d/1BmTsLOkBoB9EC_ahLEJnN0n1vNKPdp2D/view?usp=sharing'>
+      <NavLink className='resume-link' to='/resume'>
           Resume
-      </a>
+      </NavLink>
         
       <NavLink className='contact' to='/contact'>
           Contact
