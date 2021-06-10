@@ -1,23 +1,18 @@
 .projects-container{
-  min-height: 70vh;
-  position: relative;
-  width: 70vw;
-  padding-left: 100px;
-  padding-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: 87.8vh;
+  width: 55vw;
+  padding-left: 250px;
+  margin: 0 auto;
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-around;
-  padding-bottom: 100px;
 }
 
 .project-entry{
   width: 30vw;
   max-height: 500px;
   margin-bottom: 50px;
-  padding-top: 10px;
   background-color: #F6AE2D;
   padding-bottom: 25px;
   border-radius: 5px;

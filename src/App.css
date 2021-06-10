@@ -1,5 +1,11 @@
-.App {
+.App-dark {
   text-align: center;
   font-family: 'Dosis', sans-serif;
   background-color:#353535;
+}
+
+.App-light{
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  background-color: white;
 }
