@@ -10,10 +10,9 @@
   "I T T T"
   "I T T T";
   position:relative;
-  min-height:80vh;
+  height:100vh;
+  overflow: hidden;
 }
-
-
 
 .about-text {
   grid-area: T;

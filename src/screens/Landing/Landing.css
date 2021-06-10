@@ -1,31 +1,44 @@
-.landing-container{
-  height: 100vh;
-  width: 60vw;
-  margin-left: 300px;
+.landing-container {
+  height: 87.8vh;
+  width: 55vw;
+  margin: 0px auto;
+  padding-top: 100px;
   font-size: 24px;
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 
-.landing-text {
-  
-  /* animation:5s ease-in-out slideIn; */
+.landing-container p {
+  line-height: 1.5;
+  letter-spacing: 0.8px;
 }
 
 .tech-stack-icons{
-  height: 20vh;
-  width: 30vw;
+  height: 40vh;
+  width: 50vw;
   display: flex;
   flex-flow: row wrap;
-  margin-top: 40px;
+  margin: 40px auto 0px;
+  column-gap: 50px;
+  row-gap: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .tech-stack-icons img{
-  height: 50px;
-  margin: 0 auto;
+  height: 100px;
+}
+
+.tech-stack-icons .mongoose {
+  height: 75px;
+}
+
+.tech-stack-icons .postgresql,
+.tech-stack-icons .rails {
+  height: 150px;
 }
 
 @keyframes slideIn {
